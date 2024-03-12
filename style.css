@@ -1,0 +1,91 @@
+body {
+	max-width: 800px;
+	margin: auto;
+	background-color: rgb(255, 168, 203);
+	color: rgb(229, 0, 12);
+	font-family: futura;
+	font-weight: lighter;
+	border-left: 8px solid rgb(164, 216, 255);
+	border-right: 8px solid rgb(164, 216, 255) ;
+}
+
+.bordertop {
+	color: rgb(164, 216, 255);
+	border-top: 50px solid;
+	--mask: 
+    linear-gradient(to top,#0000 30px,#000 0),
+    radial-gradient(30px,#000 98%,#0000) bottom/55.5px 60px;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+.borderbottom {
+	color: rgb(164, 216, 255);
+	border-bottom: 50px solid;
+  --mask: 
+    linear-gradient(to bottom,#0000 30px,#000 0),
+    radial-gradient(30px,#000 98%,#0000) top/55.5px 60px;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+img {
+	max-width: 200px;
+	border: solid rgb(164, 216, 255);
+	border-radius: 6px;
+}
+
+.info {
+	text-align: center;
+}
+
+/*
+.monsieur-la doulaise-regular {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+#title {
+	font-size: 38px;
+	margin: 0 0 0 0;
+}
+
+#subtitle {
+	font-size: 26px;
+	margin: -80px 0 0 0;
+}
+
+h2 {
+	font-family: "Monsieur La Doulaise", cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 65px;
+	margin: 20px 0 -10px 0;
+}
+
+p {
+	color: rgb(250, 249, 246);
+	max-width: 600px;
+	margin: 0 auto;
+	font-size: larger;
+}
+
+a:link {
+	color: rgb(250, 249, 246);
+}
+
+a:visited {
+	color: rgb(164, 216, 255);
+}
+
+a:hover {
+	color: rgb(229, 0, 12);
+}
+
+a:active {
+	color: rgb(81, 0, 86);
+}
+
+
